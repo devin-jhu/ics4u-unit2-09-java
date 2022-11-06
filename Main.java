@@ -22,6 +22,11 @@ final class Main {
     public static final int FIFTEEN = 15;
 
     /**
+     * This is 5.
+     */
+    public static final int FIVE = 5;
+
+    /**
      * This is new speed.
      */
     public static final String NEWSPEED = "New speed: ";
@@ -74,8 +79,8 @@ final class Main {
         bigTruck.accelerate(TEN, TEN);
         System.out.println(NEWSPEED + bigTruck.getSpeed());
 
-        System.out.println("\nApplied air pressure of 10:");
-        bigTruck.provideAir(TEN);
+        System.out.println("\nApplyed air pressure of 5:");
+        bigTruck.breaking(FIVE, FIVE, FIVE);
         System.out.println(NEWSPEED + bigTruck.getSpeed());
 
         System.out.println("\nDone.");
